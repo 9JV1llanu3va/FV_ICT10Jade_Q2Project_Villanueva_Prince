@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="stylesheet" href="stylescm.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Project Q2</title>
+</head>
+
+<body class="page-body">
+
+    <nav class="shared-nav">
+        <a href="index.html">Math Club</a>
+        <a href="scm.html" class="active">Student Club</a>
+        <a href="element.html">Elements</a>
+        <a href="creator.html">Creator</a>
+    </nav>
+
+    <div class="container mt-5 position-relative" style="z-index: 2;">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        
+                        <!--Ykat Floro John Ict Was here :-] -->
+
+                        <h2 class="h4 mb-0">Student Club Member Management</h2>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="scm_first_name">First Name</label>
+                                    <input type="text" class="form-control" id="scm_first_name" placeholder="Enter first name">
+                            </div>
+                <div class="form-group col-md-6">
+            <label for="scm_last_name">Last Name</label>
+            <input type="text" class="form-control" id="scm_last_name" placeholder="Enter last name">
+                                </div>
+                            </div>
+
+            <button type="button" id="scm_btn" class="btn btn-warning btn-block" py-click="add_member">Add Member</button>
+
+              <div class="footer-section">
+            <span class="footer-dot"></span> Prince Villanueva • Project Q2 • 2026-2027
+        </div>
+                        </form>
+
+            <div class="mt-4" id="scm_output">
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="py" src="scm.py"></script>
+</body>
+</html>
