@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="stylesheet" href="stylecreator.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Project Q2</title>
+</head>
+<body>
+
+<body class="page-body">
+
+    <nav class="shared-nav">
+        <a href="index.html">Math Club</a>
+        <a href="scm.html">Student Club</a>
+        <a href="element.html">Elements</a>
+        <a href="creator.html" class="active">Creator</a>
+    </nav>
+
+    <div class="creator-card">
+        <div class="card-top">
+            <h2>Meet the Creator</h2>
+        </div>
+
+        <div class="card-content">
+            <div class="profile-section">
+                <img src="prince.png" alt="My Photo" class="profile-pic">
+                <h3>Prince Villanueva</h3>
+                <p class="subtitle">Grade 10 - Jade | SY 2026-2027</p>
+            </div>
+
+            <hr>
+
+            <div class="info-grid">
+                <div class="info-column">
+                    <h4>Interests and Hobbies</h4>
+                    <ul>
+                        <li>Reading books like "sun and her flowers"</li>
+                        <li>Playing video games</li>
+                        <li>Listening to music</li>
+                        <li>Playing badminton</li>
+                    </ul>
+                </div>
+
+                <div class="info-column">
+                    <h4>Dreams and Goals</h4>
+                    <ul>
+                        <li>Become an engineer</li>
+                        <li>Help with contruction works</li>
+                        <li>Learn on how to be a businessman</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="quote-box">
+                <strong>Favorite Quote:</strong>
+                <p>"Without God, what am I but a guide to my own destruction?" <br> - Saint Augustine of Hippo</p>
+            </div>
+
+            <button type="button" class="fact-btn" py-click="show_fact">Click for a Fun Fact</button>
+            <div id="creator_output"></div>
+
+            <center>
+            <div class="footer-section">
+            <span class="footer-dot"></span> Prince Villanueva • Project Q2 • 2026-2027
+        </div>
+    </center>
+        </div>
+    </div>
+
+    <script type="py" src="creator.py"></script>
+</body>
+</html>
