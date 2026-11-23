@@ -1,0 +1,41 @@
+.shared-nav {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+
+  display: flex;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+
+
+  background: rgba(18, 22, 31, 0.78);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.shared-nav a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+
+.shared-nav a:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.shared-nav a.active {
+  background: #ffffff;
+  color: #111827;
+  font-weight: 600;
+}
