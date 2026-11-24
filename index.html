@@ -6,38 +6,58 @@
     <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
     <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
     <title>Project Q2</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylein.css" />
     <link rel="stylesheet" href="navbar.css">
-
 </head>
 <body>
 
-<nav class="shared-nav">
-  <a href="index.html" class="active">Math Club</a>
-  <a href="scm.html">Student Club</a>
-  <a href="element.html">Elements</a>
-  <a href="creator.html">Creator</a>
-</nav>
+    <nav class="shared-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="math.html">Math Club</a>
+        <a href="scm.html">Student Club</a>
+        <a href="element.html">Elements</a>
+        <a href="creator.html">Creator</a>
+    </nav>
+    <br>
+    <br>
+    <main class="hub-container">
+        <header class="hub-header">
+            <span class="hub-badge">Project Q2 • 26/27</span>
+            <br> <br>
+            <h1>PROJECT Q2 PORTAL</h1>
+        </header>
+        <br>
+        <br>
+        <br>
 
+        <section class="hub-grid">
+            <a href="math.html" class="hub-card math-theme">
+                <span class="card-label">Verification</span>
+                <h2>Math Club Checker</h2>
+                <span class="card-action">Open Checker</span>
+            </a>
 
-    <img src="logo.png" alt="Math Club Logo" id="logo">
-    <h1>MATH CLUB CHECKER</h1>
-    <form>
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" class="form-control" placeholder="Enter first name" required>
+            <a href="scm.html" class="hub-card club-theme">
+                <span class="card-label">Management</span>
+                <h2>Student Club</h2>
+                <span class="card-action">Manage Roster</span>
+            </a>
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" class="form-control" placeholder="Enter last name" required>
+            <a href="element.html" class="hub-card element-theme">
+                <span class="card-label">Chemistry</span>
+                <h2>Core Element Insight</h2>
+                <span class="card-action">Launch Finder</span>
+            </a>
+        </section>
 
-        <button type="button" class="btn btn-info" py-click="checkName">Enter</button>
+        <!-- pyscript output banner -->
+        <div id="output1" class="py-status"></div>
+    </main>
 
-        <div class="footer-section">
-            <span class="footer-dot"></span> Prince Villanueva • Project Q2 • 2026-2027
-        </div>
-    </form>
-    
-    <div id="output1"></div>
-    
+    <footer class="hub-footer">
+        Prince Villanueva • Project Q2 • 2026–2027
+    </footer>
+
     <script type="py" src="main.py"></script>
 </body>
 </html>

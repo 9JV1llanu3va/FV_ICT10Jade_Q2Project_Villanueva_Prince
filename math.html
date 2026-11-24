@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>Project Q2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css">
+
+</head>
+<body>
+
+    <nav class="shared-nav">
+        <a href="index.html" >Home</a>
+        <a href="math.html" class="active">Math Club</a>
+        <a href="scm.html">Student Club</a>
+        <a href="element.html">Elements</a>
+        <a href="creator.html">Creator</a>
+    </nav>
+
+
+    <img src="logo.png" alt="Math Club Logo" id="logo">
+    <h1>MATH CLUB CHECKER</h1>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" class="form-control" placeholder="Enter first name" required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" class="form-control" placeholder="Enter last name" required>
+
+        <button type="button" class="btn btn-info" py-click="checkName">Enter</button>
+
+
+    </form>
+     <div id="output1"></div>
+  <footer class="hub-footer">
+        Prince Villanueva • Project Q2 • 2026–2027
+    </footer>
+    <script type="py" src="main.py"></script>
+</body>
+</html>

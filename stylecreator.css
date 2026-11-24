@@ -148,3 +148,9 @@ hr {
     color: #f59e0b;
     margin-right: 4px;
 }
+
+.hub-footer {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    color: #64748b;
+}

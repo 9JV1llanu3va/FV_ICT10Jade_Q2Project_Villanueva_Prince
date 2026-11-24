@@ -24,7 +24,6 @@ body {
     justify-content: center;
 }
 
-/* Keep the rest of your styles below this */
 h1 {
     color: #4ade80;
     font-size: 2.2rem;
@@ -125,4 +124,55 @@ button:hover {
 .footer-dot {
     color: #f59e0b;
     margin-right: 4px;
+}
+
+.hub-footer {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+
+.hub-header h1 {
+    font-size: 2.4rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.hub-header p {
+    color: #94a3b8;
+    font-size: 1rem;
+    margin-bottom: 44px;
+}
+
+.hub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    text-align: left;
+}
+
+.hub-card {
+    background: rgba(20, 22, 36, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 28px;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hub-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.hub-card p {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    flex-grow: 1;
 }
